@@ -1,0 +1,16 @@
+/******************************************************************************
+
+Tushar
+B.Sc.LL.B.(Hons.) 2nd Semester
+Program to print Hello World
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Name - Tushar"<<endl<<"Roll No - 4004"<<endl<<"Branch - Law";
+
+    return 0;
+}
