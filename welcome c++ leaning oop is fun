@@ -1,0 +1,15 @@
+/******************************************************************************
+
+Tushar
+B.Sc.LL.B.(Hons.) 2nd Semester
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Welcome to C++"<<endl<<"Learning OOP"<<endl<<"Programming is fun";
+
+    return 0;
+}
