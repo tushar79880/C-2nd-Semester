@@ -1,0 +1,22 @@
+/******************************************************************************
+
+Tushar
+B.Sc.LL.B.(Hons.) 2nd Semester
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char name[10];
+    cout<<"Enter your Name - ";
+    cin>>name;
+    cout<<"Your name is "<<name;
+    int age;
+    cout<<"\nEnter your Age - ";
+    cin>>age;
+    cout<<"Your Age is "<<age;
+
+    return 0;
+}
