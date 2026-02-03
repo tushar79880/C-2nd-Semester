@@ -1,0 +1,20 @@
+/******************************************************************************
+
+Tushar
+B.Sc.LL.B.(Hons.) 2nd Semester
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b , sum,product,difference;
+    cout<<"Enter Two Numbers - ";
+    cin>>a>>b;
+    sum=a+b;
+    product=a*b;
+    difference=a-b;
+    cout<<"Sum of Two Number is "<<sum<<endl<<"product of two number is "<<product<<endl<<"difference of two number is "<<difference;
+    return 0;
+}
