@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int Number,Square,Cube;
+    cout<<"Enter the Number: ";
+    cin>>Number;
+    Square=Number*Number;
+    cout<<"Square of "<<Number<<" is: "<<Square<<endl;
+    Cube=Number*Number*Number;
+    cout<<"Cube of "<<Number<<" is: "<<Cube<<endl;
+    return 0;
+}
