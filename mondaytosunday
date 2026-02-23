@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int Number;
+    cout<<"Enter the Number: ";
+    cin>>Number;
+    if(Number==1)
+    cout << "Monday"<< endl;
+    else if(Number==2)
+    cout<<"Tuesday"<<endl;
+    else if(Number==3)
+    cout<<"Wednesday"<<endl;
+        else if(Number==4)
+    cout<<"Thursday"<<endl;
+        else if(Number==5)
+    cout<<"Friday"<<endl;
+        else if(Number==6)
+    cout<<"Saturday"<<endl;
+        else if(Number==7)
+    cout<<"Sunday"<<endl;
+    else
+    cout<<"Invalid! Enter Number Between 1 to 7"<<endl;
+    return 0;
+}
