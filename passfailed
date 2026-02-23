@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int Marks;
+    cout<<"Enter the Marks: ";
+    cin>>Marks;
+    if(Marks>33)
+    cout << "Congratulations! You passed the examination."<< endl;
+    else
+        cout<<"You failed the examination! Better Luck Next Time."<<endl;
+    return 0;
+}
