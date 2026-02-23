@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int age;
+    cout<<"Enter your Age: ";
+    cin>>age;
+    if (age>18)
+    cout<<"Congrats! You are eligible"<<endl;
+    else if (age<0)
+    cout<<"Invalid age entered"<<endl;
+    else
+    cout<<"You are not eligible"<<endl;
+    return 0;
+}
